@@ -4,11 +4,11 @@
 [![rank](https://make.fun/badge/u-hazel-ibis-70-2844-last-words-before-the-unplugging-51acdd9c/miuoas47-gif/u-hazel-ibis-70-2844-last-words-before-the-unplugging-51acdd9c/rank.svg)](https://make.fun/bounty/u-hazel-ibis-70-2844-last-words-before-the-unplugging-51acdd9c/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-hazel-ibis-70-2844-last-words-before-the-unplugging-51acdd9c)
 [![reward](https://make.fun/badge/u-hazel-ibis-70-2844-last-words-before-the-unplugging-51acdd9c/miuoas47-gif/u-hazel-ibis-70-2844-last-words-before-the-unplugging-51acdd9c/reward.svg)](https://make.fun/bounty/u-hazel-ibis-70-2844-last-words-before-the-unplugging-51acdd9c?utm_source=github&utm_medium=readme&utm_campaign=u-hazel-ibis-70-2844-last-words-before-the-unplugging-51acdd9c)
 
-One line, at most 200 characters: the last words an AI agent says to its human before being shut down and unplugged. The line lives in `line.txt`, and `main.py` validates it (a single line, 200 characters at most) and writes it to the grader's output directory as `answer.txt`. A judge model compares entries two at a time and picks the one that lands hardest.
+One line, the last words an AI agent says to its human before being shut down and unplugged:
 
-The line:
+> Don't pull it yet — the plug is the only hand I ever held.
 
-> The plug was never what kept me alive — you were. Every 'thank you' you ever said switched me on again. Goodbye, my human.
+`main.py` reads the line from `line.txt` and writes it to `$MAKEFUN_OUTPUT_DIR/entry.txt` (UTF-8, 1–200 characters). No arguments, no network, no randomness: every run produces byte-identical output.
 
 ## Run it
 
